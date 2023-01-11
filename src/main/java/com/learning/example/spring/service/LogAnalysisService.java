@@ -1,30 +1,7 @@
-package com.learning.example.spring.service;/*
 package com.learning.example.spring.service;
-
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
-import org.springframework.stereotype.Service;
-
-@Service
-@NoArgsConstructor
-public class LogEventsService {
-
-    public void execute(String... args) {
-        AppContext context = AppContext.getInstance();
-        System.out.println("Context = " + context);
-        verifyInputFile.validateFilePath(context, args);
-        analyseLog.parseLogsAndCreateAlert(context);
-
-    }
-
-}
-*/
-
 
 import com.learning.example.spring.processor.LogProcessor;
 import com.learning.example.spring.repository.LogEventRepository;
-import com.learning.example.spring.util.ValidateInput;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
