@@ -1,0 +1,17 @@
+server:
+  port:
+    8080
+spring:
+  datasource:
+    username: sa
+    password:
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    url:  jdbc:hsqldb:mem:testdb;DB_CLOSE_DELAY=-1
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+logging:
+  level:
+    org.springframework: ERROR
+    com.learning: info

@@ -1,5 +1,45 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+/caches/
+/native/
+/daemon/
+/wrapper/
+/out/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.tar.gz
+*.rar
+*.gz
+
+
+### Gradle ###
 .gradle
 /build/
+/gradle/
+/gradlew/
+
 
 # Ignore Gradle GUI config
 gradle-app.setting
